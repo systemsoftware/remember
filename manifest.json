@@ -1,0 +1,23 @@
+{
+  "name": "Remember",
+  "short_name": "Remember",
+  "description": "Save info in your browser for future reference",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "default_locale": "en",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "action": {
+    "default_popup": "./pages/index.html"
+  },
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ]  
+}
